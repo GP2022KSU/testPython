@@ -25,4 +25,4 @@ def nameRoute():
         return jsonify({'name' : response}) #sending data back to your frontend app
 
 if _name_ == "_main_":
-    app.run(debug=True)
+    app.run(debug=True,port=2000)
